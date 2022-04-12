@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lato, sans-serif;
+  }
+  
+  h1 {
+	text-align: center;
+  }
+  
+  .App {
+	max-width: 600px;
+	margin: 1rem auto;
+  }
+  .note {
+	padding: 1rem;
+	width: 80%;
+	margin: 20px auto;
+	border: 1px solid #D6D9DC;
+	border-radius: 5px;
+	position: relative;
+	white-space: pre-wrap;
+  }
+  
+  .note-edit {
+	color: darkgreen;
+	position: absolute;
+	right: -25px;
+	top: 4px;
+	cursor: pointer;
+  }
+  
+  .note-delete {
+	color: darkred;
+	position: absolute;
+	right: -25px;
+	top: 30px;
+	cursor: pointer;
+  }
+
+  .note-input textarea {
+	width: 80%;
+	height: 200px;
+	margin: 20px auto;
+	display: block;
+	padding: .5rem;
+	border: 2px solid #D6D9DC;
+	border-radius: 5px;
+
+  }
+  
+  .note-input button {
+	margin: 0 auto;
+	display: block;
+	padding: .5rem 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #FEC748;
+	color: #212121;
+  }
